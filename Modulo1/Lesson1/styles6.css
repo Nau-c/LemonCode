@@ -6,7 +6,7 @@ input {
   } 
   
    
-  
+  /* Este código CSS se aplica a todos los elementos <input> cuando el cursor del mouse se coloca sobre ellos. Cuando se produce este evento, se cambia el color de fondo del elemento a un tono rojo oscuro (darkred). En resumen, este código CSS se utiliza para resaltar los elementos <input> cuando el usuario interactúa con ellos. */
   input:hover { 
   
     background-color: darkred; 
@@ -14,7 +14,7 @@ input {
   } 
   
    
-  
+  /* Este código CSS se aplica a todos los elementos <input> cuando están enfocados, es decir, cuando el usuario hace clic en ellos o los selecciona utilizando la tecla Tab. Cuando se produce este evento, se cambia el color de fondo del elemento a un tono verde oscuro (darkolivegreen) y el color del texto a blanco. En resumen, este código CSS se utiliza para resaltar los elementos <input> cuando el usuario interactúa con ellos. */
   input:focus { 
   
     background-color: darkolivegreen; 
@@ -24,7 +24,7 @@ input {
   } 
   
    
-  
+  /* Este código CSS selecciona todos los elementos <div> que son hijos impares de un elemento con la clase container. Luego, aplica un estilo de color de texto naranja oscuro (darkorange) a esos elementos. En resumen, este código CSS se utiliza para aplicar un estilo de color de texto a los elementos <div> impares dentro de un contenedor con la clase container. */
   .container div:nth-child(odd) { 
   
     color: darkorange; 
@@ -32,7 +32,7 @@ input {
   } 
   
    
-  
+  /* Lo mismo que el anterior pero a los pares */
   .container div:nth-child(even) { 
   
     color: darkgreen; 
