@@ -6,18 +6,18 @@
   
   } 
   
-   
-  
+  /* Este código CSS selecciona todos los elementos <a> que contienen la cadena de texto "lemoncode" en su atributo href. Luego, aplica un estilo de fondo verde y un color de texto blanco a esos elementos. En resumen, este código CSS se utiliza para resaltar los enlaces que contienen la palabra "lemoncode" en su URL en una página web. */
   [href*="lemoncode"] { 
-  
+    
     background-color: green; 
-  
+    
     color: white; 
-  
+    
   } 
   
-   
   
+  
+  /* Este código CSS selecciona todos los elementos <a> que tienen un atributo href que termina con la extensión .pdf. Luego, aplica un estilo de fondo rojo oscuro (indianred) y un color de texto blanco a esos elementos. En resumen, este código CSS se utiliza para resaltar los enlaces a archivos PDF en una página web. */
   [href$=".pdf"] { 
   
     background-color: indianred; 
