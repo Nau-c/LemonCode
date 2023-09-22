@@ -1,0 +1,18 @@
+div.container > p { 
+
+    color: red; 
+  
+  } 
+  
+   
+  /* El símbolo ~ se utiliza para seleccionar elementos que son hermanos posteriores del elemento anterior. 
+  En este caso, section es el hermano posterior de div.container. */
+  div.container ~ section { 
+  
+    background-color: darkorange; 
+  
+  } 
+  
+   
+  
+   

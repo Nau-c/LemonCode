@@ -1,0 +1,53 @@
+[href] { 
+
+    font-size: 125%; 
+  
+    padding: 8px; 
+  
+  } 
+  
+   
+  
+  [href*="lemoncode"] { 
+  
+    background-color: green; 
+  
+    color: white; 
+  
+  } 
+  
+   
+  
+  [href$=".pdf"] { 
+  
+    background-color: indianred; 
+  
+    color: white; 
+  
+  } 
+  
+   
+  
+  [href$=".txt"] { 
+  
+    background-color: darkblue; 
+  
+    color: white; 
+  
+  } 
+  
+   
+  
+  [title="Website"][href*="lemoncode"] { 
+  
+    font-size: 200%; 
+  
+  } 
+  
+   
+  
+  [value~="left"] { 
+  
+    background-color: yellow; 
+  
+  } 

@@ -1,0 +1,37 @@
+p::first-letter { 
+
+    font-size: 350%; 
+  
+  } 
+  
+   
+  
+  p::selection { 
+  
+    background-color: darkorange; 
+  
+    color: white; 
+  
+  } 
+  
+   
+  
+  p::after { 
+  
+    content: "... [More info]"; 
+  
+    cursor: pointer; 
+  
+  } 
+  
+   
+  
+  div.myclass::before { 
+  
+    content: "@"; 
+  
+    padding-left: 6px; 
+  
+    font-weight: bold; 
+  
+  } 

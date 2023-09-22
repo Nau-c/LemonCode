@@ -1,0 +1,27 @@
+body { 
+
+    background-color: brown; 
+  
+  } 
+  
+  .title { 
+  
+    color: blue; 
+  
+    font-size: 500%; 
+  
+  } 
+  
+  h1.title, 
+  
+  h2 { 
+  
+    color: white; 
+  
+  } 
+  
+  #myid { 
+  
+    margin: 25px; 
+  
+  } 
