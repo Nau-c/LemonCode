@@ -1,41 +1,21 @@
-@import "https://fonts.googleapis.com/css2?family=Raleway:wght@400&disp"; 
-
  
 
-* { 
+p { 
 
-  box-sizing: border-box; 
-
-} 
-
- 
-
-body { 
-
-  font-family: "Raleway", sans-serif; 
-
-} 
-
- 
-
-div { 
-
-  font-size: 40px; 
-
-  margin: 40px; 
-
-  border: 5px solid red; 
-
-  padding: 20px; 
-
-  width: 300px; 
-
-} 
-
- 
-
-div p { 
-
-  font-size: initial; 
-
-} 
+    border: 1px solid black; 
+  
+    display: inline; 
+  
+    width: 50%; 
+  
+  } 
+  
+   
+  
+  b { 
+  
+    width: 150px; 
+  
+    display: inline-block; 
+  
+  } 

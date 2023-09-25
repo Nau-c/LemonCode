@@ -2,6 +2,14 @@
 
  
 
+* { 
+
+  box-sizing: border-box; 
+
+} 
+
+ 
+
 body { 
 
   font-family: "Raleway", sans-serif; 
@@ -10,28 +18,24 @@ body {
 
  
 
-div p { 
-
-  background-color: chocolate; 
-
-} 
-
- 
-
-p { 
-
-  background-color: grey; 
+div { 
 
   font-size: 40px; 
 
+  margin: 40px; 
+
+  border: 5px solid red; 
+
+  padding: 20px; 
+
+  width: 300px; 
+
 } 
 
  
 
-p { 
+div p { 
 
-  background-color: green; 
+  font-size: initial; 
 
 } 
-
- 

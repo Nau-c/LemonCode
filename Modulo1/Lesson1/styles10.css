@@ -1,18 +1,37 @@
-div.container > p { 
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@400&disp"; 
 
-    color: red; 
-  
-  } 
-  
-   
-  /* El símbolo ~ se utiliza para seleccionar elementos que son hermanos posteriores del elemento anterior. 
-  En este caso, section es el hermano posterior de div.container. */
-  div.container ~ section { 
-  
-    background-color: darkorange; 
-  
-  } 
-  
-   
-  
-   
+ 
+
+body { 
+
+  font-family: "Raleway", sans-serif; 
+
+} 
+
+ 
+
+div p { 
+
+  background-color: chocolate; 
+
+} 
+
+ 
+
+p { 
+
+  background-color: grey; 
+
+  font-size: 40px; 
+
+} 
+
+ 
+
+p { 
+
+  background-color: green; 
+
+} 
+
+ 

@@ -1,0 +1,37 @@
+p::first-letter { 
+
+    font-size: 350%; 
+  
+  } 
+  
+   
+  /* Este código CSS se aplica a la selección de texto dentro de todos los elementos <p>. Cuando se selecciona texto dentro de un elemento <p>, se cambia el color de fondo del texto a un tono naranja oscuro (darkorange) y el color del texto a blanco. En resumen, este código CSS se utiliza para aplicar un estilo de selección de texto personalizado a los elementos <p>. */
+  p::selection { 
+  
+    background-color: darkorange; 
+  
+    color: white; 
+  
+  } 
+  
+   
+  /* Este código CSS utiliza el selector ::after para insertar contenido después del contenido real de todos los elementos <p>. En este caso, se inserta el texto "... [More info]" después del contenido real del elemento. Además, se establece el cursor del mouse en forma de puntero para indicar que el texto es interactivo. En resumen, este código CSS se utiliza para agregar un texto adicional después del contenido de los elementos <p>. */
+  p::after { 
+  
+    content: "... [More info]"; 
+  
+    cursor: pointer; 
+  
+  } 
+  
+   
+  /* Este código CSS utiliza el selector ::before para insertar contenido antes del contenido real de todos los elementos <div> que tienen la clase myclass. En este caso, se inserta el carácter "@" antes del contenido real del elemento. Además, se aplica un relleno de 6 píxeles a la izquierda del contenido, y se establece el peso de la fuente en negrita. En resumen, este código CSS se utiliza para agregar un carácter especial antes del contenido de los elementos <div> con la clase myclass */
+  div.myclass::before { 
+  
+    content: "@"; 
+  
+    padding-left: 6px; 
+  
+    font-weight: bold; 
+  
+  } 

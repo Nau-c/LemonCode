@@ -1,37 +1,18 @@
-p::first-letter { 
+div.container > p { 
 
-    font-size: 350%; 
+    color: red; 
   
   } 
   
    
-  
-  p::selection { 
+  /* El símbolo ~ se utiliza para seleccionar elementos que son hermanos posteriores del elemento anterior. 
+  En este caso, section es el hermano posterior de div.container. */
+  div.container ~ section { 
   
     background-color: darkorange; 
   
-    color: white; 
-  
   } 
   
    
   
-  p::after { 
-  
-    content: "... [More info]"; 
-  
-    cursor: pointer; 
-  
-  } 
-  
    
-  
-  div.myclass::before { 
-  
-    content: "@"; 
-  
-    padding-left: 6px; 
-  
-    font-weight: bold; 
-  
-  } 

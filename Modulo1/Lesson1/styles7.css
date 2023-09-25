@@ -40,7 +40,7 @@ input {
   } 
   
    
-  
+  /* Este código CSS selecciona el último elemento <div> que es hijo de un elemento con la clase container. Luego, aplica un estilo de color de texto rojo a ese elemento. En resumen, este código CSS se utiliza para aplicar un estilo de color de texto al último elemento <div> dentro de un contenedor con la clase container. */
   .container div:last-child { 
   
     color: red; 
