@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .box {
+    border: 1px solid black;
+    background-color: cadetblue;
+    padding: 30px;
+    width: 300px;
+  }
+  
+  #box1 {
+    padding-bottom: 70px;
+  }
+  

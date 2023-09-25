@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #flex-container {
+    display: flex;
+    border: 3px solid red;
+    flex-direction: row;
+  }
+  
+  .box {
+    padding: 50px;
+    border: 1px solid black;
+  }
+  
+  #box1 {
+    flex-basis: 200px;
+    flex-shrink: 1;
+  }
+  
+  #box2 {
+    flex-basis: 200px;
+    flex-shrink: 2;
+  }

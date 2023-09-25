@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+  }
+  
+  .menu {
+    box-sizing: border-box;
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: cadetblue;
+    border-right: 1px solid black;
+    margin-right: 1px;
+  }
+  
+  .content {
+    float: left;
+    height: 100%;
+    background-color: bisque;
+    width: calc(100% - 151px);
+  }
